@@ -2,7 +2,9 @@
 1.Log Stoppage Automation:
 
 This project automates the monitoring of log sources to ensure continuous data ingestion.   
-The Problem: Stale cases accumulate because analysts lack visibility on when ingestion resumes, leading to manual verification backlogs.   The Solution: A Scheduled SOAR Job that identifies open log stoppage cases and queries Chronicle via UDM to verify if logs have resumed.   Outcome: Automatically closes cases when logs are detected or sends re-escalation reminders every 3 hours if they are still missing.  
+The Problem: Stale cases accumulate because analysts lack visibility on when ingestion resumes, leading to manual verification backlogs.   The Solution: A Scheduled SOAR Job that identifies open log stoppage cases and queries Chronicle via UDM to verify if logs have resumed.
+
+Outcome: Automatically closes cases when logs are detected or sends re-escalation reminders every 3 hours if they are still missing.  
  
 2. Phishing Investigation & Response :
 A modernized playbook that transitions phishing response from a manual process to an AI-assisted, automated workflow.  
